@@ -1,6 +1,6 @@
 # [Complementary DNA](https://www.codewars.com/kata/554e4a2f232cdd87d9000038/train/javascript)
 
- <!-- 
+
  Complementary DNA
 
 Deoxyribonucleic acid (DNA) is a chemical found in the nucleus of cells and carries the "instructions" for the development and functioning of living organisms.
@@ -17,7 +17,6 @@ DNAStrand("ATTGC"); // "TAACG"
 
 DNAStrand("GTAT"); // "CATA"
 
-<!-- 
 Example: (input -> output)
 
 "ATTGC" -> "TAACG"
@@ -26,7 +25,7 @@ dnaStrand []        `shouldBe` []
 dnaStrand [A,T,G,C] `shouldBe` [T,A,C,G]
 dnaStrand [G,T,A,T] `shouldBe` [C,A,T,A]
 dnaStrand [A,A,A,A] `shouldBe` [T,T,T,T]
--->
+
 
 ## Syntax
 
@@ -124,6 +123,18 @@ describe(`${solution.name}: return the other complementary side of DNA string`, 
 
 ### Continue Doing
 
+- Many experimental refactors of each solution I studied, this helped a lot with
+  `remix-x.md`.
+- Writing extra test cases.
+
 ### Start Doing
 
+- Study more solutions that look very similar, there's a lot to learn from the
+  small differences.
+- Rename all the variables in functions when I start studying them, I think this
+  could help inspire new remixes
+- Step through the code many different ways: debugger, JS Tutor, drawing on it,
+  trace tables.
+
 ### Stop Doing
+- Expecting to understand every solution perfectly.
