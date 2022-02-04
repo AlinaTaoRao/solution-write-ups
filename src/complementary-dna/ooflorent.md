@@ -1,6 +1,19 @@
 # [ooflorent](https://www.codewars.com/users/ooflorent)
 
 ```js
+// inspiration 01: use replace, RegEXP. 
+function DNAStrand01(dna) {
+    return dna.replace(/./g, function(c) {
+      return DNAStrand.pairs[c]
+    })
+  }
+  DNAStrand.pairs = {
+    A: 'T',
+    T: 'A',
+    C: 'G',
+    G: 'C',
+}
+
 
 ```
 

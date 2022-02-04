@@ -1,9 +1,89 @@
 # Remix x
 
-<!--
-  which solutions inspired your solution?
-  what did you take from each one?
--->
+I inspired by the below codes. But I write code myself first, try as many way as I can. After that, I check other persons code. And choose the best practice in my eyes, and also those who write the solution use a method I didn't cover in my solutions.
+
+``js
+// inspiration 01: use replace, RegEXP. //Matches any single character except line terminators
+// [ooflorent](https://www.codewars.com/users/ooflorent)
+function DNAStrand01(dna) {
+    return dna.replace(/./g, function(c) {
+      return DNAStrand.pairs[c]
+    })
+  }
+  DNAStrand.pairs = {
+    A: 'T',
+    T: 'A',
+    C: 'G',
+    G: 'C',
+}
+```
+
+``js
+// inspiration 02: use map, join
+// [colbydauph](https://www.codewars.com/users/colbydauph)
+var pairs = {'A':'T','T':'A','C':'G','G':'C'};
+function DNAStrand02(dna){
+  return dna.split('').map(function(v){ return pairs[v] }).join('');
+}
+```
+
+``js
+// inspiration 03: use for loop, if statement.
+// [RahmanNoor](https://www.codewars.com/users/RahmanNoor)
+function DNAStrand03(dna){
+    var result= "";
+        for(var i =0; i<dna.length; i++) 
+        {
+          if (dna[i]==="A") 
+         {
+          result +="T";
+         }
+          else if (dna[i]==="T") 
+         {
+          result += "A";
+          }
+          else if (dna[i]==="C")
+          {
+          result +="G";
+          }
+          else if (dna[i]==="G")
+          {
+          result += "C";
+          }
+          else {
+          result +=dna[i];
+          }
+       }
+       return result;
+    }
+```
+
+``js
+// inspiration 04: use for loop, switch.
+// [jarrov](https://www.codewars.com/users/jarrov)
+function DNAStrand04(dna){
+    var res="";
+    for(var i=0; i<dna.length; i++) {
+      switch(dna[i]) {
+        case 'A':
+          res += "T";
+          break;
+        case 'T':
+          res += "A";
+          break;
+        case 'G':
+          res += "C";
+          break;
+        case 'C':
+          res += "G";
+          break;
+      }
+    }
+    return res;
+  }
+```
+
+My solutions coming below:
 
 ```js
 // 1st Try: use for loop //works
