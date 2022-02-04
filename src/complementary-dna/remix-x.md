@@ -2,7 +2,7 @@
 
 I inspired by the below codes. But I write code myself first, try as many way as I can. After that, I check other persons code. And choose the best practice in my eyes, and also those who write the solution use a method I didn't cover in my solutions.
 
-``js
+```js
 // inspiration 01: use replace, RegEXP. //Matches any single character except line terminators
 // [ooflorent](https://www.codewars.com/users/ooflorent)
 function DNAStrand01(dna) {
@@ -18,7 +18,7 @@ function DNAStrand01(dna) {
 }
 ```
 
-``js
+```js
 // inspiration 02: use map, join
 // [colbydauph](https://www.codewars.com/users/colbydauph)
 var pairs = {'A':'T','T':'A','C':'G','G':'C'};
@@ -27,7 +27,7 @@ function DNAStrand02(dna){
 }
 ```
 
-``js
+```js
 // inspiration 03: use for loop, if statement.
 // [RahmanNoor](https://www.codewars.com/users/RahmanNoor)
 function DNAStrand03(dna){
@@ -58,7 +58,7 @@ function DNAStrand03(dna){
     }
 ```
 
-``js
+```js
 // inspiration 04: use for loop, switch.
 // [jarrov](https://www.codewars.com/users/jarrov)
 function DNAStrand04(dna){
