@@ -7,24 +7,24 @@ Deoxyribonucleic acid (DNA) is a chemical found in the nucleus of cells and carr
 
 In DNA strings, symbols "A" and "T" are complements of each other, as "C" and "G". You function receives one side of the DNA (string, except for Haskell); you need to return the other complementary side. DNA strand is never empty or there is no DNA at all (again, except for Haskell).
 
-@param {String} [str = ""] - The string to be complement.
-@returns {String} - Returns a complementary string.
-@example
+@param {String} [str = ""] - The string to be complement.  
+@returns {String} - Returns a complementary string.  
+@example  
 
-DNAStrand("ATTGC"); // "TAACG"
+DNAStrand("ATTGC"); // "TAACG"  
 
-@example
+@example  
 
-DNAStrand("GTAT"); // "CATA"
+DNAStrand("GTAT"); // "CATA"  
 
-Example: (input -> output)
+Example: (input -> output)    
 
-"ATTGC" -> "TAACG"
-"GTAT" -> "CATA"
-dnaStrand []        `shouldBe` []
-dnaStrand [A,T,G,C] `shouldBe` [T,A,C,G]
-dnaStrand [G,T,A,T] `shouldBe` [C,A,T,A]
-dnaStrand [A,A,A,A] `shouldBe` [T,T,T,T]
+"ATTGC" -> "TAACG"  
+"GTAT" -> "CATA"  
+dnaStrand []        `shouldBe` []  
+dnaStrand [A,T,G,C] `shouldBe` [T,A,C,G]  
+dnaStrand [G,T,A,T] `shouldBe` [C,A,T,A]  
+dnaStrand [A,A,A,A] `shouldBe` [T,T,T,T]  
 
 
 ## Syntax
