@@ -5,7 +5,7 @@ Remove consecutive duplicate words
 Your task is to remove all consecutive duplicate words from a string, leaving only first words entries.   
 
 @param {String} [str=[]] - The string to inspect.  
-@returns {String} Returns the new string of filtered values.  
+@returns {String} - Returns the new string of filtered values.  
 @example
 
 const str = "alpha beta beta gamma gamma gamma delta alpha beta beta gamma gamma gamma delta"  
