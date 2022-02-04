@@ -4,13 +4,13 @@
 Square Every Digit 
 You are asked to square every digit of a number and concatenate them.
 
-For example, if we run 9119 through the function, 811181 will come out, because 9*9 is 81 and 1*1 is 1.
+For example, if we run 9119 through the function, 811181 will come out, because 9 * 9 is 81 and 1 * 1 is 1.
 
-**Note:** The function accepts an integer and returns an integer
+**Note:** The function accepts an integer and returns an integer  
 
- @param {Number} [number] - The number inside which every digit need to Square.
- @returns {Number} - Returns the number of Squared values.
- @example
+ @param {Number} [number] - The number inside which every digit need to Square.  
+ @returns {Number} - Returns the number of Squared values.  
+ @example  
  
  squareDigits(3212); //  9414
  
