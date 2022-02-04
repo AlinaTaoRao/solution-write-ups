@@ -1,18 +1,18 @@
 # [Remove consecutive duplicate words](https://www.codewars.com/kata/5b39e91ee7a2c103300018b3/train/javascript)
 
-<!--
-Remove consecutive duplicate words
-Your task is to remove all consecutive duplicate words from a string, leaving only first words entries. 
 
-@param {String} [str=[]] - The string to inspect.
-@returns {String} Returns the new string of filtered values.
+Remove consecutive duplicate words
+Your task is to remove all consecutive duplicate words from a string, leaving only first words entries.   
+
+@param {String} [str=[]] - The string to inspect.  
+@returns {String} Returns the new string of filtered values.  
 @example
 
-const str = "alpha beta beta gamma gamma gamma delta alpha beta beta gamma gamma gamma delta"
+const str = "alpha beta beta gamma gamma gamma delta alpha beta beta gamma gamma gamma delta"  
 
-removeConsecutiveDuplicates(str); // "alpha beta gamma delta alpha beta gamma delta"
+removeConsecutiveDuplicates(str); // "alpha beta gamma delta alpha beta gamma delta"  
 
--->
+
 
 
 ## Syntax
@@ -149,28 +149,21 @@ Its hard for me to describe how the problem was solved without mentioning the
 implementation.
  -->
 
+
 ### Continue Doing
 
-<!-- copy from example # to do
 - Many experimental refactors of each solution I studied, this helped a lot with
-  `remix-2.md`
+  `remix-x.md`
 - Writing extra test cases
- -->
 
 ### Start Doing
 
-<!-- copy from example # to do
 - Study more solutions that look very similar, there's a lot to learn from the
   small differences.
 - Rename all the variables in functions when I start studying them, I think this
   could help inspire new remixes
 - Step through the code many different ways: debugger, JS Tutor, drawing on it,
   trace tables.
- -->
 
 ### Stop Doing
-
-<!-- # to do
-- Expecting to understand every solution perfectly, I learned a lot from
-  studying `zedCwt` without understanding how `|` works.
- -->
+- Expecting to understand every solution perfectly.
