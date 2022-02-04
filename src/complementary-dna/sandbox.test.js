@@ -50,13 +50,6 @@ function DNAStrand02(dna){
 return dna.split('').map(function(v){ return pairs[v] }).join('');
 }
 
-/* 
-const str = 'apple apple banana banana orange'
-        const actual = solution(str);
-        const expected = 'apple banana orange';
-        expect(actual).toEqual(expected);
- */
-
 
 for (const solution of [DNAStrand1, DNAStrand2, DNAStrand01, DNAStrand02]) {
   describe(`${solution.name}: return the other complementary side of DNA string`, () => {
