@@ -9,7 +9,7 @@ For example, if we run 9119 through the function, 811181 will come out, because 
 **Note:** The function accepts an integer and returns an integer
 
  @param {Number} [number] - The number inside which every digit need to Square.
- @returns {Number} Returns the number of Squared values.
+ @returns {Number} - Returns the number of Squared values.
  @example
  
  squareDigits(3212); //  9414
