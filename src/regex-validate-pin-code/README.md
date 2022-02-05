@@ -9,13 +9,13 @@ If the function is passed a valid PIN string, return true, else return false.
 @returns {Boolean} - Returns true or false.  
 @example
 
-(Input --> Output)
-"1234"   -->  true
-"123456"   -->  true
-"12345"  -->  false
-"a234"   -->  false
-"-12345"  -->  false
-"1.2345"  -->  false
+(Input --> Output)  
+"1234"   -->  true  
+"123456"   -->  true  
+"12345"  -->  false  
+"a234"   -->  false  
+"-12345"  -->  false  
+"1.2345"  -->  false  
 
 ## Syntax
 
